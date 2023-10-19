@@ -18,7 +18,7 @@ if pergunta == 'Triste' or pergunta == 'triste':
     pygame.init()
 
     # carregar um arquivo de música no mixer de música do Pygame.
-    pygame.mixer.music.load('Brincando_com_python/musica/1.mp3')
+    pygame.mixer.music.load('1.mp3')
     # Esta função oferece a capacidade de controlar a reprodução da música de
     # várias maneiras, usando os seguintes parâmetros:
     pygame.mixer.music.play(loops=0, start=0.0)
@@ -35,20 +35,20 @@ if pergunta == 'Triste' or pergunta == 'triste':
 elif pergunta == 'Alegre' or pergunta == 'alegre':
     pygame.mixer.init()
     pygame.init()
-    pygame.mixer.music.load('Brincando_com_python/musica/2.mp3')
+    pygame.mixer.music.load('2.mp3')
     pygame.mixer.music.play(loops=0, start=0.0)
     pygame.event.wait()
 
 elif pergunta == 'Desanimado' or pergunta == 'desanimado':
     pygame.mixer.init()
     pygame.init()
-    pygame.mixer.music.load('Brincando_com_python/musica/3.mp3')
+    pygame.mixer.music.load('3.mp3')
     pygame.mixer.music.play(loops=0, start=0.0)
     pygame.event.wait()
 
 elif pergunta == 'Motivado' or pergunta == 'motivado':
     pygame.mixer.init()
     pygame.init()
-    pygame.mixer.music.load('Brincando_com_python/musica/4.mp3')
+    pygame.mixer.music.load('4.mp3')
     pygame.mixer.music.play(loops=0, start=0.0)
     pygame.event.wait()
