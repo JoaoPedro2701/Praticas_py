@@ -1,5 +1,7 @@
 import pygame
 
+#primeira vez usando biblioteca 
+
 print(10 * '---')
 print('Responda com seu humor')
 print(10 * '---')
